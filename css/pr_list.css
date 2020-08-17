@@ -1,0 +1,41 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.cover {
+    background-color: #f00;
+    width: 960px;
+    margin: 0px auto 0px auto;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/*----*/
+
+.col-md-4 {
+    background-color: #f00;
+    color: #fff;
+}
+
+#header_list>.col-md-1,
+#header_list>.col-md-2 {
+    background-color: rgba(155, 1, 1, 0.651);
+    border: 1px solid #f00;
+    color: #fff;
+    height: 100px;
+    ;
+}
+
+#detail_list>.col-md-1,
+#detail_list>.col-md-2 {
+    border: 1px solid #f00;
+    height: 200px;
+    ;
+}
+
+#detail_list>.col-md-2>.row {
+    border: 1px solid #f00;
+}

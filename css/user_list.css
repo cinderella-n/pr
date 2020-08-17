@@ -1,0 +1,15 @@
+body {
+	background-color: red;
+ 	font-family: 'Kanit', sans-serif;
+ 	width: 100%;
+}
+.clr{
+	 clear: both;
+}
+table,td,th{
+	padding: 2px;
+	background-color: #f00;
+	border: 2px solid #fff;
+	border-radius: 5px 5px 5px 5px;
+	color: #fff;
+}

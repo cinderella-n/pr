@@ -1,0 +1,44 @@
+body{
+	font-family: 'Kanit', sans-serif;
+}
+.cover{
+	background-color: #f00;
+	width: 960px;
+ 	margin: 0px auto 0px auto;
+}
+.clr{
+	 clear: both;
+}
+/*--------------Header Purchase----------------*/
+.purchase{
+
+}
+.purchase .inner{
+	float: left;
+	height: 55px;
+}
+.purchase .inner>a{
+	font: 15px;
+	margin: 2px;
+	padding: 2px;
+	color: #fff;
+}
+.purchase .inner>a:hover{
+	font: 15px;
+	background-color: #fff;
+	color: #f00;
+}
+.purchase .login>a{
+	float: right;
+	font: 15px;
+	margin: 2px;
+	padding: 2px;
+	color: #fff;
+}
+/*-----------------Hearder--------------------*/
+table,td,th{
+	border: 2px solid #fff;
+	background-color: #cce6ff;
+	margin: 2px;
+	padding: 10px 10px 10px 10px;
+}

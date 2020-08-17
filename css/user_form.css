@@ -1,0 +1,53 @@
+body {
+	background-color: red;
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+}
+.clr{
+	 clear: both;
+}
+/*-----------------Hearder--------------------*/
+.purchase{
+	padding: 15px;
+}
+.purchase .inner{
+	float: left;
+	height: 55px;
+}
+.purchase .inner>a{
+	font: 15px;
+	margin: 2px;
+	padding: 2px;
+	color: #fff;
+}
+.purchase .inner>a:hover{
+	font: 15px;
+	background-color: #fff;
+	color: #f00;
+}
+.purchase .login{
+	float: right;
+	font: 15px;
+	margin: 2px;
+	padding: 2px;
+	color: #fff;
+}
+.purchase .login>a{
+	font: 15px;
+	margin: 2px;
+	padding: 2px;
+	color: #fff;
+}
+.purchase .login>a:hover{
+	font: 15px;
+	background-color: #fff;
+	color: #f00;
+}
+/*-----------form-------------*/
+form>.inner{
+	margin: 15px auto 15px auto;
+	border: 1px solid #fff;
+	padding: 15px;
+	color: #fff;
+
+}

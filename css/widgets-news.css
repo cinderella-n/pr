@@ -1,0 +1,59 @@
+#columns .widget .widget-content3 {
+    float: left;
+    font-weight: normal;
+    padding: 10px 0;
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 114px;
+}
+
+#columns .widget .widget-content3 ul.tabs {
+    float: left;
+    font-weight: bold;
+    padding: 0px 0;
+    width: 250px;
+    list-style: none;
+    padding-top: 0px;
+}
+
+#columns .widget .widget-content3 ul.tabs li {
+    float: left;
+    font-weight: bold;
+    padding: 5px 0;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+#columns .widget .widget-content3 ul.tabs li.active {
+    text-align: center;
+    background-color: #eee;
+}
+
+#columns .widget .widget-content3 .tab_container {
+    /*border: 0px solid #999;*/
+    border-top: none;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+
+#columns .widget .widget-content3 .tab_content2 {
+    /*font-size: 1.2em;*/
+}
+
+#columns .widget .widget-content3 .more {
+    bottom: 10px;
+    color: #543019;
+    font-weight: bold;
+    position: absolute;
+    left: 275px;
+}
+
+#columns .widget .widget-content3 .more a {
+    color: #543019;
+}

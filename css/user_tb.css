@@ -1,0 +1,16 @@
+body {
+	background-color: red;
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+}
+.clr{
+	 clear: both;
+}
+/*---------------------------------------*/
+.inner-wrapper{
+	margin: auto auto auto auto;
+}
+table,th,td{
+	border: 1px solid #fff;
+	color: #fff;
+}

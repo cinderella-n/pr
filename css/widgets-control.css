@@ -1,0 +1,111 @@
+.screen {
+    background: #000;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 22;
+}
+
+.widget-control {
+    background: url('../images/main/widget-background.jpg') no-repeat 0 0;
+    display: none;
+    float: left;
+    height: 231px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    width: 701px;
+    z-index: 22;
+}
+
+.widget-control h3 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.widget-control ol {
+    float: left;
+    height: px;
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+    width: 681px;
+}
+
+.widget-control ol li {
+    float: left;
+    line-height: 100%;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.widget-control ol li input {
+    cursor: pointer;
+    float: left;
+    margin: 2px 0;
+    padding: 0;
+}
+
+.widget-control ol li label {
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    padding: 3px;
+}
+
+.widget-control ul {
+    float: left;
+    height: px;
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+    width: 681px;
+}
+
+.widget-control ul li {
+    float: left;
+    line-height: 100%;
+    margin: 6px 10px;
+    padding: 0;
+    width: 207px;
+}
+
+.widget-control ul li input {
+    cursor: pointer;
+    float: left;
+    margin: 2px 0;
+    padding: 0;
+}
+
+.widget-control ul li label {
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    padding: 3px;
+}
+
+.widget-control img {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.widget-control .close {
+    clear: both;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    bottom: 228px;
+}
+
+.widget-control .save {
+    clear: both;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}

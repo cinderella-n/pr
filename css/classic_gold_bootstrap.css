@@ -1,0 +1,34 @@
+body {
+    background-color: #600;
+    font-family: 'Chonburi', cursive;
+}
+
+#header {
+    background-color: #600;
+}
+
+#header>h1 {
+    font-size: 24px;
+    color: #ffaa00;
+    font-family: 'Chonburi', cursive;
+}
+
+#header>h2 {
+    font-size: 15px;
+    color: #ffaa00;
+    font-family: 'Chonburi', cursive;
+}
+
+#menu_bar {
+    background-color: #600;
+}
+
+#menu_bar>a {
+    font-size: 15px;
+    color: #ffaa00;
+    font-family: 'Chonburi', cursive;
+}
+
+#button_menu>.btn-danger {
+    border-radius: 15px;
+}

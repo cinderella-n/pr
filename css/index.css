@@ -1,0 +1,16 @@
+body {
+    background-color: #f00;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/*--flow--*/
+
+.col-md-12 {
+    margin: 0px auto 0px auto;
+}

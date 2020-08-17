@@ -1,0 +1,24 @@
+body {
+	background-color: #f00;
+ 	font-family: 'Kanit', sans-serif;
+  	width: 100%;
+}
+.clr{
+	 clear: both;
+}
+/*-----------------------------------------------*/
+.cover{
+	width: 960px;
+	height: 100%;
+	background-color: #f00;
+	margin: auto auto auto auto;
+}
+.cover .inner{
+	width: 36%;
+	background-color: #f00;
+	margin: 240px auto auto auto;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.cover .button{
+}
