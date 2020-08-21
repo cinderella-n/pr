@@ -3,8 +3,8 @@
     require("connect.php");
 
     $tb_pr = "tb_pr";
-    $sql_pr = "SELECT * FROM $tb_pr WHERE pr_statusapproved1 != '1' ";
-    $query_pr = $result = $conn->query($sql_pr);
+    $sql_pr = "SELECT * FROM $tb_pr WHERE pr_status_approve_2 != '1' ";
+    $query_pr = mysqli_query($connect, $sql_pr);
  ?>
 <!DOCTYPE html>
 <html>

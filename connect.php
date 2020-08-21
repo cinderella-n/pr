@@ -1,15 +1,13 @@
 <?php 
-	$servername = "localhost";
+	$hostname 	= "localhost";
 	$username 	= "root";
 	$password 	= "";
-	$dbname	 	= "pr_db";
+	$dbname	 	= "pr_thailotte_web";
 
-	// Create connection
-	$connect = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($connect->connect_error) {
-	die("Connection failed: " . $connect->connect_error);
-	}	
+	$connect = mysqli_connect($hostname,$username,$password) or die('Error connecting to MySQL');
 
-	mysqli_set_charset($connect,"utf8");	
+	$select = mysqli_select_db($connect, $dbname) or die('Database sysapp does not exist!');
+
+	mysqli_set_charset($connect,"utf8");
+	
  ?>
