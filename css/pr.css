@@ -1,4 +1,38 @@
 body {
     font-family: 'Kanit', sans-serif;
-    background-color: #f00;
+    font-weight: bold;
+}
+
+#main_bar {
+    background-color: red;
+}
+
+#row_1 {
+    background-color: #cce6ff;
+    height: 100px;
+    border: .1px solid #fff;
+}
+
+#row_2 {
+    background-color: #cce6ff;
+    height: 150px;
+    border: .1px solid #fff;
+}
+
+#row_3 {
+    background-color: #cce6ff;
+    height: 100px;
+    border: .1px solid #fff;
+}
+
+#row_4 {
+    background-color: #cce6ff;
+    height: 100px;
+    border: .1px solid #fff;
+}
+
+#row_5 {
+    background-color: #cce6ff;
+    height: 200px;
+    border: .1px solid #fff;
 }
